@@ -1,4 +1,4 @@
-programa PrimerPrograma
+programa SumarNumeros
 inicio
     ingresar: numero1
     ingresar: numero2
