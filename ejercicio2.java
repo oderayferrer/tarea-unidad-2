@@ -1,4 +1,4 @@
-programa SacarPromedioDeNumeros
+programa SacarPromedio
 inicio 
 
     ingresar: numero1
@@ -6,8 +6,8 @@ inicio
     ingresar: numero3
     ingresar: numero4
 
-    primerResultado = numero1 + numero2 + numero3 + numero4
-    segundoResultado = primerResultado / 4
+    suma = numero1 + numero2 + numero3 + numero4
+    promedio = suma / 4
 
-    mostrar: segundoResultado
+    mostrar: promedio
 fin
