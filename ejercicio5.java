@@ -1,6 +1,6 @@
 programa StockDeProductos
 inicio
-    ingresar: stockDeProducto
+    stockDeProducto = 20
 
     mostrar: "El stock de este producto es:"
     mostrar: stockDeProducto
@@ -10,6 +10,6 @@ inicio
     stockDeProducto = stockDeProducto - cantidadVendidaDelProducto
 
     mostrar: "El stock ha sido actualizado, tiene en existencia:"
-    mostrar: nuevoStockDeProducto
+    mostrar: stockDeProducto
 
 fin
