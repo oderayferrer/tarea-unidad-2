@@ -1,5 +1,5 @@
 programa NumerosSobreescritos
-    inicio
+inicio
     primerNumeroPredeterminado = 2
     segundoNumeroPredeterminado = 6
 
@@ -10,14 +10,14 @@ programa NumerosSobreescritos
     mostrar: segundoNumeroPredeterminado
 
     ingresar: nuevoPrimerNumero
-    nuevoPrimerNumero = primerNumeroPredeterminado
+    primerNumeroPredeterminado = nuevoPrimerNumero 
 
     ingresar: nuevoSegundoNumero
-    nuevoSegundoNumero = nuevoSegundoNumero
+    segundoNumeroPredeterminado = nuevoSegundoNumero
 
     mostrar: "El primer número ha sido cambiado por"
-    mostrar: nuevoPrimerNumero
+    mostrar: primerNumeroPredeterminado
 
     mostrar: "El segundo número ha sido cambiado por"
-    mostrar: nuevoSegundoNumero
-fin
+    mostrar: segundoNumeroPredeterminado
+fin 
