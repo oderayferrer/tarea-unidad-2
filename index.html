@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+    <script>
+    function porcentajeCualquiera(){
+        let numero = document.getElementById("numero").value
+        let porcentaje = document.getElementById("porcentaje").value
+        let resultado = numero * (porcentaje / 100)
+        let mensaje = "El " + porcentaje + "% de " + numero + " es " + resultado
+        alert(mensaje)
+    }
+
+
+    </script>
+</head>
+<body>
+    <form action="" onsubmit="porcentajeCualquiera()">
+    <p>
+     ingrese un numero: <input type="text" id="numero"> 
+    </p>
+    <p>
+        ingrese un porcentaje: <input type="text" id="porcentaje"> 
+       </p>
+    <input type="submit" value="calcular">
+    </form>
+</body>
+</html>
